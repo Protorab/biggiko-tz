@@ -1,0 +1,96 @@
+<!-- @format -->
+
+<footer>
+  <div class="wrapper footer__wrapper">
+    <nav class="menu footer__menu">
+      <a href="" class="menu__item">item-1</a>
+      <a href="" class="menu__item">item-2</a>
+      <a href="" class="menu__item">item-3</a>
+      <a href="" class="menu__item">item-4</a>
+      <a href="" class="menu__item">item-5</a>
+    </nav>
+    <a href="#" class="logo footer__logo">
+      <span class="logo-icon">
+        <img src="img/svg/icon-logo.svg" alt="logo" />
+      </span>
+    </a>
+  </div>
+
+  <div class="social">
+    <a
+      href="http://"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social__link vk"
+    >
+      <i class="fab fa-vk"></i>
+    </a>
+    <a
+      href="http://"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social__link fb"
+    >
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a
+      href="http://"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social__link inst"
+    >
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</footer>
+<script src="js/main.min.js"></script>
+
+<!-- @format -->
+
+<div id="popup__form" class="popup animate__animated">
+  <div class="popup__overlay"></div>
+  <form class="send__form form__popup animate__animated" action="">
+    <div class="close">
+      <span></span>
+    </div>
+    <input type="hidden" name="project_name" value="Site Name" />
+    <input type="hidden" name="admin_email" value="admin@mail.com" />
+    <input type="hidden" name="form_subject" value="Form Subject" />
+
+    <input
+      required
+      name="Имя"
+      placeholder="Введите имя"
+      type="text"
+      class="form__popup-input"
+    />
+    <input
+      required
+      name="Телефон"
+      placeholder="Введите телефон"
+      type="phone"
+      class="form__popup-input telephone"
+    />
+    <input
+      required
+      name="E-mail"
+      placeholder="Введите e-mail"
+      type="email"
+      class="form__popup-input"
+    />
+
+    <textarea
+      placeholder="Введите текст"
+      name="Сообщение"
+      cols="30"
+      rows="10"
+      class="form__popup-input form__popup-textarea"
+    ></textarea>
+
+    <label for="popup__form-submit" class="form__popup-btn btn"
+      >Отправить</label
+    >
+    <input type="submit" value="" id="popup__form-submit" />
+  </form>
+</div>
+
